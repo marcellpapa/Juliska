@@ -1,0 +1,5 @@
+FROM ubuntu
+RUN apt-get update -y
+RUN ap-get install mc -y
+RUN ap-get install nmap -y
+RUN ap-get install git -y
